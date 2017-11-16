@@ -1,0 +1,9 @@
+<div class="article-list-entry media">
+  <div class="media-left">
+    <a href="$ctrl.article.media[0].url"><img class="media-object" ng-src='{{$ctrl.article.media[0].url}}' height="60" width="60"/></a>
+  </div>
+  <div class="media-body">
+    <div class="media-heading"ng-click="$ctrl.onView($ctrl.article)"><a href="{{$ctrl.article.links.permalink}}"><strong>{{$ctrl.article.title}}</strong></a></div>
+    <div class="article-list-entry-summary">{{$ctrl.article.summary.sentences[0]}}</div>
+  </div>
+</div>

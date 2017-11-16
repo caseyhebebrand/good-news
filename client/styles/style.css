@@ -1,0 +1,11 @@
+body {
+  background-color: #FFFEF7
+}
+
+.page-header {
+  font-family: @font-family-sans-serif
+}
+
+small {
+  color: #5bc0de
+}

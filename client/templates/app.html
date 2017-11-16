@@ -1,0 +1,20 @@
+<div id="app container">
+  <div class="page-header">
+    <h1>Good News<small>get your daily dose of positivity.</small></h1>
+    <nav class="navbar">
+      <div>
+        <nav-bar on-click="$ctrl.onClick" set="$ctrl.setArticles" recent="$ctrl.render"></nav-bar>
+      </div>
+    </nav>
+
+    <div>
+      <search set="$ctrl.setArticles" search="$ctrl.onSearch"/>
+    </div>
+
+
+  </div>
+  <div>
+    <article-list articles="$ctrl.articles" on-view="$ctrl.onView"></article-list>
+  </div>
+
+</div>

@@ -1,0 +1,5 @@
+<ul class="article-list">
+  <article-list-entry ng-repeat="article in $ctrl.articles track by $index" article="article" on-view="$ctrl.onView">{{$ctrl.articles[0].title}}</article-list-entry>
+  <!-- <article-list-entry articles="$ctrl.articles[0]"/> -->
+  <!-- <li>{{$ctrl.articles[0].title}}</li> -->
+</ul>
